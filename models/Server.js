@@ -26,16 +26,14 @@ class Server{
         this.port = process.env.PORT;
         this.comprasGet = '/api/Compras'
         this.empleadosGet = '/api/Empleados'
-        this.medicamentosGet = '/api/Medicamentos'
         this.pacientesGet = '/api/Pacientes'
         this.proveedoresGet = '/api/Proveedores'
         this.ventasGet = '/api/Ventas'
-        this.stockGet = '/api/Medicamentos'
-        this.expiracionAntes = '/api/Medicamentos'
         this.emitidasDespues = '/api/Ventas'
         this.paracetamol = '/api/Ventas'
-
-
+        this.stockGet = '/api/Medicamentos'
+        this.expiracionAntes = '/api/Medicamentos'
+        this.medicamentosGet = '/api/Medicamentos'
         // ! Middleware
         this.middlewares();
 

@@ -4,7 +4,7 @@ const obtainCompras = require('../controllers/compras.controllers.js')
 
 const router = Router();
 
-router.get("/all",obtainCompras);
+router.get("/",obtainCompras);
 
 
 

@@ -7,7 +7,7 @@ const obtenerCompras = async (req, res) => {
     res.json(medicamentosProveedorA);
   } catch (error) {
     console.error(error);
-    res.status(500).json({ error: 'Menos socio tampoco' });
+    res.status(500).json({ error: 'nope' });
   }
 };  
 
